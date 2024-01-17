@@ -104,7 +104,7 @@
 
       <template v-slot:after>
         <q-tab-panels v-model="tab" animated vertical keep-alive>
-          <q-tab-panel name="tab1" class="q-pr-none q-pl-lg q-pt-lg q-pb-lg">
+          <q-tab-panel name="tab1" class="q-pr-none q-pl-lg q-pt-lg q-pb-none">
             <q-scroll-area id="" class="panel panelM" :thumb-style="{ width: '7px' }">
               <div class="q-mr-lg">
                 <keep-alive><tab1></tab1></keep-alive>
@@ -112,7 +112,7 @@
             </q-scroll-area>
           </q-tab-panel>
 
-          <q-tab-panel name="tab2" class="q-pr-none q-pl-lg q-pt-lg q-pb-lg">
+          <q-tab-panel name="tab2" class="q-pr-none q-pl-lg q-pt-lg q-pb-none">
             <q-scroll-area id="" class="panel panelM" :thumb-style="{ width: '7px' }">
               <div class="q-mr-lg">
                 <keep-alive><tab2></tab2></keep-alive>
@@ -120,7 +120,7 @@
             </q-scroll-area>
           </q-tab-panel>
 
-          <q-tab-panel name="tab3" class="q-pr-none q-pl-lg q-pt-lg q-pb-lg">
+          <q-tab-panel name="tab3" class="q-pr-none q-pl-lg q-pt-lg q-pb-none">
             <q-scroll-area id="" class="panel panelM" :thumb-style="{ width: '7px' }">
               <div class="q-mr-lg">
                 <keep-alive><tab3></tab3></keep-alive>
