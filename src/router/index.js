@@ -13,7 +13,9 @@ const routes = [
       // Your are free to add whatever logic here.
       // On first visit
       next('/tab1')
-    }
+    },
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../components/UI/ThePanelTabsVertical.vue')
   },
   {
     path: '/tab1',
